@@ -92,3 +92,6 @@ footer{
     align-items: center;
 
 }
+footer p{
+    font-family:"Yanone Kaffeesatz" ;
+}
