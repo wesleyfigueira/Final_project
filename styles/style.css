@@ -135,7 +135,7 @@ footer{
 footer p{
     font-family:"Yanone Kaffeesatz" ;
 }
-
+/*About me Page CSS*/
 .aboutMePage{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -150,8 +150,8 @@ footer p{
 .text1{
     grid-column:3/4 ;
     grid-row:2/3 ;
-   border: solid black;
-   padding: 5px;
+    border: solid black;
+    padding: 5px;
   
    
 }
@@ -165,4 +165,35 @@ footer p{
     border: solid black;
     padding: 5px;
 
+}
+/*COntact me Page css*/
+
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+    
+}
+.contImg{
+    grid-column:1/2 ;
+    grid-row:2/3 ;
+   
+}
+.textOne{
+    grid-column:3/4 ;
+    grid-row:2/3 ;
+    border: solid black;
+    padding: 5px;
+}
+.cellImag{
+    grid-column:3/4;
+    grid-row: 4/5;
+}
+.textwo{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: solid black;
+    padding: 5px;
 }
